@@ -6,9 +6,3 @@ libs/
 .vscode/
 .exmlCrcSync
 .euiboostercfg
-
-MooPHP
-logs
-sftp-config.json
-Rakefile
-node_modules/
