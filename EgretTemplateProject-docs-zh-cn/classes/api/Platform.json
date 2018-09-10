@@ -1,0 +1,259 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "appId",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"name": "name",
+			"memberof": "Platform",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "checkviserion",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "createGameClubButton",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createRewardedVideoAd",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "adUnitId",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getLaunchOptionsSync",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getSessionInfo",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "getShareInfo",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getSystemInfoSync",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "getUserInfo",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "login",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "navigateToMiniProgram",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "appId",
+					"description": ""
+				},
+				{
+					"name": "path",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "pauseBgMusic",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "playerBgMusic",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "url",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "playerSound",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "url",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "reloadPage",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "report",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"description": ""
+				},
+				{
+					"name": "reportData",
+					"description": ""
+				},
+				{
+					"name": "objs",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "requestMidasPayment",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "num",
+					"description": ""
+				},
+				{
+					"name": "areaId",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "resumeBgMusic",
+			"memberof": "Platform",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "sendOpenData",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "setUserCloudStorage",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "shareAppMessage",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "shareInfo",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "updateShareMenu",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "wxCatchError",
+			"memberof": "Platform",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "callback",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "wxGC",
+			"memberof": "Platform",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "Platform",
+		"memberof": "",
+		"filename": "Platform.ts"
+	}
+}

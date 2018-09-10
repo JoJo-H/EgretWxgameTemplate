@@ -1,0 +1,49 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "no",
+			"memberof": "core.IPromptInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "text",
+			"memberof": "core.IPromptInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "title",
+			"memberof": "core.IPromptInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "type",
+			"memberof": "core.IPromptInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "yes",
+			"memberof": "core.IPromptInfo",
+			"scope": "instance",
+			"default": "重试"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IPromptInfo",
+		"memberof": "core",
+		"filename": "core\\ui\\PromptBox.ts"
+	}
+}

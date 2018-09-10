@@ -1,0 +1,56 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "UI_ADD",
+			"memberof": "core.CoreNotificationDef",
+			"scope": "static",
+			"description": "新增ui",
+			"default": "\"UI_ADD\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "UI_CLEAR",
+			"memberof": "core.CoreNotificationDef",
+			"scope": "static",
+			"description": "清除ui",
+			"default": "\"UI_CLEAR\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "UI_NORMAL_REMOVE",
+			"memberof": "core.CoreNotificationDef",
+			"scope": "static",
+			"description": "正常移除ui",
+			"default": "\"UI_NORMAL_REMOVE\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "UI_REMOVE",
+			"memberof": "core.CoreNotificationDef",
+			"scope": "static",
+			"description": "移除ui",
+			"default": "\"UI_REMOVE\""
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "CoreNotificationDef",
+			"memberof": "core.CoreNotificationDef",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CoreNotificationDef",
+		"memberof": "core",
+		"filename": "core\\define\\CoreNotificationDef.ts"
+	}
+}

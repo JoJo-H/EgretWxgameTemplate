@@ -1,0 +1,275 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "core.Button",
+			"name": "btnClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "data",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "imgClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "removeing",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"default": "false",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SimpleLoading",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dataChange",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destoryData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "forceHide",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "core.IUiAnimation",
+			"name": "getAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "any[]",
+			"name": "getArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "egret.DisplayObject",
+			"name": "getChildView",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getShowCount",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUiType",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "hide",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "initEventListener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "func",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onEnter",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onExit",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "anim",
+					"type": "core.IUiAnimation",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "args",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setFull",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "show",
+			"memberof": "core.SimpleLoading",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SimpleLoading",
+		"memberof": "core",
+		"filename": "core\\ui\\SimpleLoading.ts",
+		"augments": [
+			"core.BaseComponent"
+		]
+	}
+}

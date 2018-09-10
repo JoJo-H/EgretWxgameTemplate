@@ -1,0 +1,41 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "color",
+			"memberof": "core.TooltipInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "delay",
+			"memberof": "core.TooltipInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "size",
+			"memberof": "core.TooltipInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "text",
+			"memberof": "core.TooltipInfo",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "TooltipInfo",
+		"memberof": "core",
+		"filename": "core\\ui\\Tooltip.ts"
+	}
+}

@@ -1,0 +1,297 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "COLUMN",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "static",
+			"default": "\"column\""
+		},
+		{
+			"kind": "member",
+			"name": "COLUMN_REVERSE",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "static",
+			"default": "\"column_reverse\""
+		},
+		{
+			"kind": "member",
+			"name": "ROW",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "static",
+			"default": "\"row\""
+		},
+		{
+			"kind": "member",
+			"name": "ROW_REVERSE",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "static",
+			"default": "\"row_reverse\""
+		},
+		{
+			"kind": "member",
+			"type": "core.Button",
+			"name": "btnClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "data",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "direction",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance",
+			"default": "BaseFlexComponent.ROW"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "imgClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "removeing",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"default": "false",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"name": "setPoint",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance",
+			"default": "function (): void {\r\n            switch (this.direction) {\r\n                case BaseFlexComponent.ROW:\r\n                    this.point = [[-core.stage.stageWidth, 0], [0, 0]];\r\n                    break;\r\n                case BaseFlexComponent.ROW_REVERSE:\r\n                    this.point = [[-core.stage.stageWidth, 0], [0, 0]];\r\n                    break;\r\n                case BaseFlexComponent.COLUMN:\r\n                    this.point = [[0, -core.stage.stageHeight], [0, 0]];\r\n                    break;\r\n                case BaseFlexComponent.COLUMN_REVERSE:\r\n                    this.point = [[0, -core.stage.stageHeight], [0, 0]];\r\n                    break;\r\n            }\r\n        }"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "BaseFlexComponent",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dataChange",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destoryData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "core.IUiAnimation",
+			"name": "getAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "any[]",
+			"name": "getArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "egret.DisplayObject",
+			"name": "getChildView",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUiType",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "initEventListener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "func",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onClose",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onEnter",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onExit",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "open",
+			"memberof": "core.BaseFlexComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "anim",
+					"type": "core.IUiAnimation",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "args",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setFull",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "BaseFlexComponent",
+		"memberof": "core",
+		"filename": "core\\ui\\BaseFlexComponent.ts",
+		"augments": [
+			"core.BaseComponent"
+		]
+	}
+}

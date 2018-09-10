@@ -1,0 +1,103 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "notice",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ItemRenderer",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dataChanged",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destoryData",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "func",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onEnter",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onExit",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setData",
+			"memberof": "core.ItemRenderer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "val",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ItemRenderer",
+		"memberof": "core",
+		"filename": "core\\ui\\ItemRenderer.ts",
+		"augments": [],
+		"implements": [
+			{
+				"name": "core.IComponent"
+			}
+		]
+	}
+}

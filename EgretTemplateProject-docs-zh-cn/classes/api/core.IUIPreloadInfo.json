@@ -1,0 +1,35 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string[]",
+			"name": "assets",
+			"memberof": "core.IUIPreloadInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string[]",
+			"name": "group",
+			"memberof": "core.IUIPreloadInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "Promise<any>[]",
+			"name": "promise",
+			"memberof": "core.IUIPreloadInfo",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IUIPreloadInfo",
+		"memberof": "core",
+		"filename": "core\\interface\\IUIPreloadInfo.ts",
+		"description": "ui预加载信息"
+	}
+}

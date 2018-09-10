@@ -1,0 +1,121 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "()=>core.IUiAnimation",
+			"name": "getAnimation",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "()=>any[]",
+			"name": "getArgs",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "()=>core.UiType",
+			"name": "getUiType",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "(name)=>egret.DisplayObject",
+			"name": "getView",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "(anim:core.IUiAnimation)=>void",
+			"name": "setAnimation",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "(args:any[])=>void",
+			"name": "setArgs",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "(data:any,type?:any)=>void",
+			"name": "setData",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "()=>void",
+			"name": "setFull",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "(type:core.UiType)=>void",
+			"name": "setUiType",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.IComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "eui.Component",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "sender",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onEnter",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onExit",
+			"memberof": "core.IComponent",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IComponent",
+		"memberof": "core",
+		"filename": "core\\ui\\BaseComponent.ts",
+		"augments": []
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "en",
+			"memberof": "LanguageType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "zh",
+			"memberof": "LanguageType",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "LanguageType",
+		"memberof": "",
+		"filename": "module\\config\\allEnum.ts"
+	}
+}

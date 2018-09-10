@@ -1,0 +1,182 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addFliterGray",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "image",
+					"type": "eui.Image",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destoryChildren",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "container",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret.DisplayObject",
+			"name": "getChildByName",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "name",
+					"description": ""
+				},
+				{
+					"name": "display",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getComponentName",
+			"memberof": "core.display",
+			"scope": "static",
+			"description": "获取组件名称",
+			"params": [
+				{
+					"name": "type",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "core.BaseComponent",
+			"name": "getHostComponent",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "display",
+					"type": "egret.DisplayObject",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isHostComponentType",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "host",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeAllChildren",
+			"memberof": "core.display",
+			"scope": "static",
+			"description": "移除容器中的所有子显示对象",
+			"params": [
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "需要移除子显示对象的容器"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeFliterGray",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "image",
+					"type": "eui.Image",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeFromParent",
+			"memberof": "core.display",
+			"scope": "static",
+			"description": "移除显示对象,可以是egret的显示对象,也可以是继承组件",
+			"params": [
+				{
+					"name": "child",
+					"type": "egret.DisplayObject",
+					"description": "子显示对象"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setAnchor",
+			"memberof": "core.display",
+			"scope": "static",
+			"description": "设置显示对象的相对描点",
+			"params": [
+				{
+					"name": "disObj",
+					"type": "egret.DisplayObject",
+					"description": "需要设置描点的显示对象"
+				},
+				{
+					"name": "anchorX",
+					"type": "number",
+					"description": "X轴相对描点"
+				},
+				{
+					"name": "anchorY",
+					"type": "number",
+					"default": "anchorX",
+					"description": "Y轴相对描点"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setFullDisplay",
+			"memberof": "core.display",
+			"scope": "static",
+			"params": [
+				{
+					"name": "displayObj",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "display",
+		"memberof": "core",
+		"filename": "core\\tools\\display.ts"
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "egret.ImageLoader",
+			"name": "loader",
+			"memberof": "ImageC",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ImageC",
+			"memberof": "ImageC",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "url",
+					"type": "string",
+					"default": "\"\"",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onImgLoadEnd",
+			"memberof": "ImageC",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "e",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setUrl",
+			"memberof": "ImageC",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "url",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ImageC",
+		"memberof": "",
+		"filename": "module\\loading\\ImageC.ts",
+		"augments": []
+	}
+}

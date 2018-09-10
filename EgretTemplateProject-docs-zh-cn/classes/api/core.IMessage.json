@@ -1,0 +1,21 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string|number",
+			"name": "messageID",
+			"memberof": "core.IMessage",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IMessage",
+		"memberof": "core",
+		"filename": "core\\interface\\IMessage.ts",
+		"description": "消息接口"
+	}
+}

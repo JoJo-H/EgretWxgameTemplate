@@ -1,0 +1,43 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SceneAnimation",
+			"memberof": "SceneAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "close",
+			"memberof": "SceneAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "open",
+			"memberof": "SceneAnimation",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SceneAnimation",
+		"memberof": "",
+		"filename": "module\\uiAnimation\\SceneAnimation.ts",
+		"augments": [
+			"UiAnimation"
+		]
+	}
+}

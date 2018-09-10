@@ -1,0 +1,76 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "clipScreen",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "height",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "level",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "patientId",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "queryData",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "shareType",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "width",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "x",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "y",
+			"memberof": "IShareInfo",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IShareInfo",
+		"memberof": "",
+		"filename": "module\\utils\\GameShare.ts"
+	}
+}

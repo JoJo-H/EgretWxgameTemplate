@@ -1,0 +1,175 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "LanguageType",
+			"name": "LANGUAGE_TYPE",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "//语言类型,LanguageType枚举值",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "ConfigCenter",
+			"name": "instance",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "zipData",
+			"memberof": "ConfigCenter",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ConfigCenter",
+			"memberof": "ConfigCenter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getConfigItem",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "获取配置表某项数据object",
+			"params": [
+				{
+					"name": "cfgName",
+					"type": "string",
+					"description": "配置文件名称"
+				},
+				{
+					"name": "keyV",
+					"type": "any",
+					"description": "标识符的值"
+				},
+				{
+					"name": "keyName",
+					"type": "string",
+					"default": "'id'",
+					"description": "配置表中每项的标识符字符串"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getConfigItemCount",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "//获取配置表的的项目总数",
+			"params": [
+				{
+					"name": "cfgName",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getConfigRoot",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "获取配置表下root转换成的object",
+			"params": [
+				{
+					"name": "cfgName",
+					"type": "string",
+					"description": "配置文件名称"
+				},
+				{
+					"name": "keyName",
+					"type": "string",
+					"default": "'id'",
+					"description": "配置表中每项的标识符"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getLanguageName",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "// 从GameConfigLanguage获取名字",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getLanguageNameObj",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getValue",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "获取配置表某项数据object 中 的某个字段值",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": "配置文件名称"
+				},
+				{
+					"name": "keyV",
+					"type": "any",
+					"default": "null",
+					"description": "标识符的值"
+				},
+				{
+					"name": "subkeyName",
+					"type": "string",
+					"default": "null",
+					"description": "标识符"
+				},
+				{
+					"name": "keyName",
+					"type": "string",
+					"default": "'id'",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "loadGameConfigLanguage",
+			"memberof": "ConfigCenter",
+			"scope": "static",
+			"description": "//语言表格式化下"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ConfigCenter",
+		"memberof": "",
+		"filename": "module\\config\\ConfigCenter.ts"
+	}
+}

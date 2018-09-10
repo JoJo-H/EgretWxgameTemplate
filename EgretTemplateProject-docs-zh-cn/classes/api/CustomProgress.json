@@ -1,0 +1,62 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "CustomProgress",
+			"memberof": "CustomProgress",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "w",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "h",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destroy",
+			"memberof": "CustomProgress",
+			"scope": "instance",
+			"description": "销毁"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setProgress",
+			"memberof": "CustomProgress",
+			"scope": "instance",
+			"description": "设置进度",
+			"params": [
+				{
+					"name": "cur",
+					"type": "number",
+					"description": "cur"
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": "max"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CustomProgress",
+		"memberof": "",
+		"filename": "module\\loading\\CustomProgress.ts",
+		"augments": []
+	}
+}

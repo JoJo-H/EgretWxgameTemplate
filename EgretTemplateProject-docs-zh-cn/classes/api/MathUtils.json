@@ -1,0 +1,181 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "ceil",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "向上取整",
+			"returns": "number",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "distance",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "计算两点距离",
+			"returns": "",
+			"params": [
+				{
+					"name": "p1",
+					"type": "egret.Point",
+					"description": "p1"
+				},
+				{
+					"name": "p2",
+					"type": "egret.Point",
+					"description": "p2"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "T",
+			"name": "getRandomElement",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "数组内随机一个元素",
+			"returns": "T",
+			"params": [
+				{
+					"name": "arr",
+					"type": "T[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "pointDistance",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "计算两点距离",
+			"params": [
+				{
+					"name": "x1",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "y1",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "x2",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "y2",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "random",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "[min,max)范围内随机一个整数",
+			"returns": "number   随机值",
+			"params": [
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "randomInt",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "(n,m)范围内随机一个整数",
+			"returns": "number  随机值",
+			"params": [
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "randomIntNM",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "[n,m]范围内随机一个整数",
+			"returns": "number   随机值",
+			"params": [
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "randomintM",
+			"memberof": "MathUtils",
+			"scope": "static",
+			"description": "(n,m]范围内随机一个整数",
+			"returns": "number   随机值",
+			"params": [
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MathUtils",
+		"memberof": "",
+		"filename": "core\\utils\\MathUtils.ts",
+		"description": "数学工具类"
+	}
+}

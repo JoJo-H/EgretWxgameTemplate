@@ -1,0 +1,355 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "core.Button",
+			"name": "btnClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "data",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "imgClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "removeing",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"default": "false",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "EUIAnimation",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "skinName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "props",
+					"question": true,
+					"type": "IAnimationProps",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dataChange",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "destoryData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"name": "disDirection",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "x",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "y",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "tx",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "ty",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "core.IUiAnimation",
+			"name": "getAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "any[]",
+			"name": "getArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "egret.DisplayObject",
+			"name": "getChildView",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUiType",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "initEventListener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "func",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"name": "moveTo",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "tx",
+					"description": ""
+				},
+				{
+					"name": "ty",
+					"description": ""
+				},
+				{
+					"name": "fun",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onClose",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onEnter",
+			"memberof": "EUIAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onExit",
+			"memberof": "EUIAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setAnimation",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "anim",
+					"type": "core.IUiAnimation",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setArgs",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "args",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setData",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setFull",
+			"memberof": "core.BaseComponent",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.BaseComponent"
+		},
+		{
+			"kind": "function",
+			"name": "startMove",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "lineList",
+					"type": "any[]",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "startPlay",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"description": "//播放tween",
+			"params": [
+				{
+					"name": "tweenName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "stopPlay",
+			"memberof": "EUIAnimation",
+			"scope": "instance",
+			"description": "//停止tween",
+			"params": [
+				{
+					"name": "tweenName",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "EUIAnimation",
+		"memberof": "",
+		"filename": "module\\uiAnimation\\EUIAnimation.ts",
+		"augments": [
+			"core.BaseComponent"
+		]
+	}
+}

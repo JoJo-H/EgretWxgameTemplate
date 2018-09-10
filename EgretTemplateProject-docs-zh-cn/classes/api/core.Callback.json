@@ -1,0 +1,57 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "bindCallback",
+			"memberof": "core.Callback",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "callback",
+			"memberof": "core.Callback",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "thisObj",
+			"memberof": "core.Callback",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Callback",
+			"memberof": "core.Callback",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "callback",
+					"type": "Function",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Callback",
+		"memberof": "core",
+		"filename": "core\\data\\Callback.ts",
+		"description": "回调数据结构，提供this绑定功能extends egret.HashObject",
+		"children": [
+			"TickData"
+		]
+	}
+}

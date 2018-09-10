@@ -1,0 +1,56 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "T[]",
+			"name": "items",
+			"memberof": "core.IHook",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "register",
+			"memberof": "core.IHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "T",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "remove",
+			"memberof": "core.IHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "T",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "reset",
+			"memberof": "core.IHook",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IHook",
+		"memberof": "core",
+		"filename": "core\\hooks.ts"
+	}
+}

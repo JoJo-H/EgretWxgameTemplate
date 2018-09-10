@@ -1,0 +1,50 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UiAnimation",
+			"memberof": "UiAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "close",
+			"memberof": "UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "open",
+			"memberof": "UiAnimation",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UiAnimation",
+		"memberof": "",
+		"filename": "module\\uiAnimation\\IUiAnimation.ts",
+		"implements": [
+			{
+				"name": "core.IUiAnimation"
+			}
+		],
+		"children": [
+			"BoxAnimation",
+			"SceneAnimation",
+			"TipAnimation"
+		]
+	}
+}

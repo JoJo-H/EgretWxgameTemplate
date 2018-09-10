@@ -1,0 +1,212 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "calcuNetDelayEnd",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "结束计算网络延迟在接收到测试网络延迟的数据包返回后调用此方法"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "calcuNetDelayStart",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "开始计算网络延迟在发送测试网络延迟的数据包前调用此方法"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "dateFormat",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "格式化时间戳",
+			"returns": "string",
+			"params": [
+				{
+					"name": "fmt",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "time",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "diffTimeFormat",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "格式化时间戳",
+			"returns": "string",
+			"params": [
+				{
+					"name": "fmt",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "time",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format1",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 12:00:00这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format2",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 12-15 12:00这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format3",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 00分00秒这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format4",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 00小时00分00秒这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format5",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 00:00这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format6",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "返回 00日00时00分这种格式",
+			"returns": "string",
+			"params": [
+				{
+					"name": "time",
+					"description": "time"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getNetDelay",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "得到当前网络延迟调用此方法前请先调用calcuNetDelayStart及calcuNetDelayEnd计算网络延迟",
+			"returns": "number"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getServerTime",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "获取服务器时间调用此方法前请先调用setServerTime同步服务器时间",
+			"returns": "number   单位秒"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getServerTimeMill",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "获取服务器时间调用此方法前请先调用setServerTime同步服务器时间",
+			"returns": "number   单位毫秒"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getServerTimeYmd",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "获取服务器时间的Ymd格式"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setServerTime",
+			"memberof": "DateUtils",
+			"scope": "static",
+			"description": "设置服务器时间",
+			"params": [
+				{
+					"name": "time",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DateUtils",
+		"memberof": "",
+		"filename": "core\\utils\\DateUtils.ts",
+		"description": "日期处理类本类包含以下功能：1、计算网络延迟2、设置、获取服务器时间3、格式化时间格式"
+	}
+}

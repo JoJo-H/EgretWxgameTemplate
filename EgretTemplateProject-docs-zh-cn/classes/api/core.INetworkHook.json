@@ -1,0 +1,111 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReloadError",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponse",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponseError",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponseSuccess",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRequest",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRequestError",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onTimeout",
+			"memberof": "core.INetworkHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "INetworkHook",
+		"memberof": "core",
+		"filename": "core\\hooks.ts"
+	}
+}

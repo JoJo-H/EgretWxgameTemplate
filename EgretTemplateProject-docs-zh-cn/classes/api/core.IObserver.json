@@ -1,0 +1,104 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "compareNotifyContext",
+			"memberof": "core.IObserver",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "object",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "getNotifyContext",
+			"memberof": "core.IObserver",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "getNotifyMethod",
+			"memberof": "core.IObserver",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getPriority",
+			"memberof": "core.IObserver",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "notifyObserver",
+			"memberof": "core.IObserver",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "notification",
+					"type": "core.INotification",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setNotifyContext",
+			"memberof": "core.IObserver",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "notifyContext",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setNotifyMethod",
+			"memberof": "core.IObserver",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "notifyMethod",
+					"type": "Function",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setPriority",
+			"memberof": "core.IObserver",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "val",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IObserver",
+		"memberof": "core",
+		"filename": "core\\mvc\\Observer.ts"
+	}
+}

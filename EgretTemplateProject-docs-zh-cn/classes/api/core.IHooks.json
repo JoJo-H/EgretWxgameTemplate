@@ -1,0 +1,41 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "IHook<core.IButtonHook>",
+			"name": "button",
+			"memberof": "core.IHooks",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "IHook<core.INetworkHook>",
+			"name": "network",
+			"memberof": "core.IHooks",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "IHook<core.ISocketHook>",
+			"name": "socket",
+			"memberof": "core.IHooks",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "IHook<core.IUIHook>",
+			"name": "ui",
+			"memberof": "core.IHooks",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IHooks",
+		"memberof": "core",
+		"filename": "core\\hooks.ts"
+	}
+}

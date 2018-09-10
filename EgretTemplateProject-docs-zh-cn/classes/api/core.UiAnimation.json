@@ -1,0 +1,55 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "box",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "common",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "guide",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "panel",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "scene",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "core.IUiAnimation",
+			"name": "tooltip",
+			"memberof": "core.UiAnimation",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UiAnimation",
+		"memberof": "core",
+		"filename": "core\\ui\\UiAnimation.ts"
+	}
+}
