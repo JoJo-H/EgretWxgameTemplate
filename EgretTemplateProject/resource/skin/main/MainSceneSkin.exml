@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:core="core.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ZJM_Floor_png" scale9Grid="43,40,4,4" left="0" right="0" top="0" bottom="0"/>
+	<e:Group y="1170" horizontalCenter="0">
+		<core:Button id="btnRank" label="Rank" x="0" y="0" skinName="ButtonGreenSkin" anchorOffsetY="0" height="76"/>
+		<core:Button label="Button" x="10" y="10" skinName="ButtonGreenSkin" anchorOffsetY="0" height="76"/>
+		<core:Button label="Button" x="20" y="20" skinName="ButtonGreenSkin" anchorOffsetY="0" height="76"/>
+		<core:Button label="Button" x="30" y="30" skinName="ButtonGreenSkin" anchorOffsetY="0" height="76"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

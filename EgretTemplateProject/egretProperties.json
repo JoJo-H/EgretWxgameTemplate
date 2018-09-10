@@ -1,0 +1,53 @@
+{
+  "engineVersion": "5.2.8",
+  "compilerVersion": "5.2.8",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+		{
+			"name": "is",
+			"path": "../../MyGameTools/thirds/is"
+		},
+		{
+			"name": "base64",
+			"path": "../../MyGameTools/thirds/base64"
+		},
+		{
+			"name": "PathFinding",
+			"path": "../../MyGameTools/thirds/PathFinding"
+		},
+		{
+			"name": "jszip",
+			"path": "../../MyGameTools/thirds/wxjszip"
+		}
+  ]
+}
