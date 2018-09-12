@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="TooltipSkin" width="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="76">
-	<e:Image width="600" x="0" y="0" height="76" source="ZJM_Prompt_box_png" scale9Grid="60,36,11,4" anchorOffsetY="0"/>
-
-	<e:Label id="label" text="  " horizontalCenter="0" verticalCenter="0" textColor="0x514d4d" size="22"/>
-</e:Skin>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="ButtonGreenSkin" width="160" height="50" xmlns:e="http://ns.egret.com/eui">
-	<e:Image y="0" x="0" width="100%" height="100%" scale9Grid="13,12,8,8" anchorOffsetX="0" anchorOffsetY="0" source="button_green_small_png"/>
-	<e:Label id="labelDisplay" size="22" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" text="Button" strokeColor="0x149900" stroke="3" horizontalCenter="0" verticalCenter="0" bold="true"/>
-	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
-</e:Skin>
