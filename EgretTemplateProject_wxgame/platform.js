@@ -6,7 +6,7 @@ const fileutil = require('./library/file-util');
 class WxgamePlatform {
 
     name = 'wxgame'
-  appId = "wx3de7a1f450fdca66";
+  appId = "";
     videoAd;
     share() {
         //回到前台
