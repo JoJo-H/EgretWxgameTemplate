@@ -1,0 +1,206 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "ADD_PAY",
+			"memberof": "NetCode",
+			"scope": "static",
+			"default": "410"
+		},
+		{
+			"kind": "member",
+			"name": "BACK_PAY",
+			"memberof": "NetCode",
+			"scope": "static",
+			"default": "420"
+		},
+		{
+			"kind": "member",
+			"name": "CLEAR_DAILY_INFO",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//每日一清数据",
+			"default": "20009"
+		},
+		{
+			"kind": "member",
+			"name": "CREAT_USER",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "创建玩家角色",
+			"default": "20003"
+		},
+		{
+			"kind": "member",
+			"name": "FINISH_GUIDE_TASK",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//完成引导步骤任务",
+			"default": "20010"
+		},
+		{
+			"kind": "member",
+			"name": "GAME_SHARE",
+			"memberof": "NetCode",
+			"scope": "static",
+			"default": "66666"
+		},
+		{
+			"kind": "member",
+			"name": "GET_PAY_LIST",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//支付",
+			"default": "400"
+		},
+		{
+			"kind": "member",
+			"name": "GET_SERVERPATH",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//获取服务器地址",
+			"default": "300"
+		},
+		{
+			"kind": "member",
+			"name": "GET_SHOP_GOODS_LIST",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//获取商品列表接口",
+			"default": "400"
+		},
+		{
+			"kind": "member",
+			"name": "GET_USER_ID",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//根据loginId以及areaId查询玩家角色ID",
+			"default": "20001"
+		},
+		{
+			"kind": "member",
+			"name": "GET_USER_INFO_BY_ID",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//根据玩家角色ID获取玩家详情",
+			"default": "20002"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "HTTP_SERVER",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "游戏服地址",
+			"default": "\"\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "LB_PATH",
+			"memberof": "NetCode",
+			"scope": "static",
+			"rwType": 1,
+			"description": "//负载均衡请求地址"
+		},
+		{
+			"kind": "member",
+			"name": "LOAD_CONFIG",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//加载所有配置",
+			"default": "20006"
+		},
+		{
+			"kind": "member",
+			"name": "PUSH_ERROE",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "上报错误",
+			"default": "20011"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RES_PATH",
+			"memberof": "NetCode",
+			"scope": "static",
+			"rwType": 1,
+			"description": "//加载资源地址"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RES_ROOT_PATH",
+			"memberof": "NetCode",
+			"scope": "static",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"name": "SECOND_USER_DATA",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "login后请求异步数据 20012",
+			"default": "20012"
+		},
+		{
+			"kind": "member",
+			"name": "SYNC_TIME",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//同步服务端时间戳",
+			"default": "20007"
+		},
+		{
+			"kind": "member",
+			"name": "SecretKey",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "登陆流程",
+			"default": "\"abc@@&&&sdfseeeeeiuiu\""
+		},
+		{
+			"kind": "member",
+			"name": "TEST_REWARD",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "添加物品 command:2000",
+			"default": "20000"
+		},
+		{
+			"kind": "member",
+			"name": "UPDATE_RECHARGE_INFO",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "//充值后物品获得",
+			"default": "20008"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "areaId",
+			"memberof": "NetCode",
+			"scope": "static",
+			"description": "区服id",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "versionCode",
+			"memberof": "NetCode",
+			"scope": "static",
+			"default": "118"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NetCode",
+		"memberof": "",
+		"filename": "net\\NetCode.ts"
+	}
+}

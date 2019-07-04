@@ -1,0 +1,64 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "messageData",
+			"memberof": "core.EventData",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.EventData"
+		},
+		{
+			"kind": "member",
+			"type": "string|number",
+			"name": "messageID",
+			"memberof": "core.EventData",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.EventData"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "KeyboardEventData",
+			"memberof": "core.KeyboardEventData",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "messageID",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "data",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "KeyboardEvent",
+			"name": "getData",
+			"memberof": "core.KeyboardEventData",
+			"scope": "instance",
+			"description": "当前事件数据",
+			"returns": "KeyboardEvent"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "KeyboardEventData",
+		"memberof": "core",
+		"filename": "core\\data\\KeyboardEventData.ts",
+		"description": "键盘事件数据类",
+		"augments": [
+			"core.EventData"
+		]
+	}
+}

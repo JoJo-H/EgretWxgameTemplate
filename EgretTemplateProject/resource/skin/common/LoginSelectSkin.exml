@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSelectSkin" width="720" height="1280" xmlns:core="core.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group horizontalCenter="0" verticalCenter="0">
+
+		<e:Image y="750" source="" horizontalCenter="0"/>
+		<e:Image y="50" source="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Group id="group_login" x="0" y="476">
+			<e:Rect width="720" height="425" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x57d6ed"/>
+			<core:Button id="btn_other" label="其他账号登录" x="484" y="325" skinName="ButtonGreenSkin"/>
+			<core:Button id="enger" label="策划测试1" x="49" y="45" skinName="ButtonGreenSkin"/>
+			<core:Button id="pp" label="美术测试1" x="483" y="45" skinName="ButtonGreenSkin"/>
+			<core:Button id="bian" label="运营测试1" x="262" y="45" skinName="ButtonGreenSkin"/>
+			<core:Button id="mutou" label="策划测试2" x="49" y="134" skinName="ButtonGreenSkin"/>
+			<core:Button id="test" label="运营测试2" x="262" y="134" skinName="ButtonGreenSkin"/>
+			<core:Button id="goon" label="美术测试2" x="483" y="134" skinName="ButtonGreenSkin"/>
+			<e:TextInput id="txt_account" width="219" height="59" x="250" y="321.5" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label text="英文数字账号：" x="47" y="336"/>
+		</e:Group>
+		<core:Button id="btn_wechat" label="微信登录" skinName="ButtonGreenSkin" scaleX="1.3" scaleY="1.3" y="1006" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

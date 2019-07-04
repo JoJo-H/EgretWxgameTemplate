@@ -1,0 +1,66 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "COMPLETE",
+			"memberof": "core.MovieEvent",
+			"scope": "static",
+			"default": "\"Complete\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "FRAME_LABEL",
+			"memberof": "core.MovieEvent",
+			"scope": "static",
+			"default": "\"Frame_Label\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "LOOP_COMPLETE",
+			"memberof": "core.MovieEvent",
+			"scope": "static",
+			"default": "\"Loop_Complete\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "frameLabel",
+			"memberof": "core.MovieEvent",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MovieEvent",
+			"memberof": "core.MovieEvent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "label",
+					"type": "string",
+					"default": "null",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MovieEvent",
+		"memberof": "core",
+		"filename": "core\\animation\\MovieEvent.ts",
+		"augments": []
+	}
+}

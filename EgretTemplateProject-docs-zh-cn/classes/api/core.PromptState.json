@@ -1,0 +1,29 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "common",
+			"memberof": "core.PromptState",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "confirm",
+			"memberof": "core.PromptState",
+			"scope": "static",
+			"default": "2"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "PromptState",
+		"memberof": "core",
+		"filename": "core\\ui\\PromptBox.ts"
+	}
+}

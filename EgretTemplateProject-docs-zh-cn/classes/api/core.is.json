@@ -1,0 +1,327 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "ios",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is current device ios?",
+			"default": "function () {\n            return is.iphone() || is.ipad() || is.ipod();\n        }"
+		},
+		{
+			"kind": "member",
+			"name": "ipad",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is current device ipad?",
+			"default": "function () {\n            return /ipad/i.test(is.userAgent);\n        }"
+		},
+		{
+			"kind": "member",
+			"name": "iphone",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is current device iphone?",
+			"default": "function () {\n            return /iphone/i.test(is.userAgent);\n        }"
+		},
+		{
+			"kind": "member",
+			"name": "ipod",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is current device ipod?",
+			"default": "function () {\n            return /ipod/i.test(is.userAgent);\n        }"
+		},
+		{
+			"kind": "member",
+			"name": "toString",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// cache some methods to call later on",
+			"default": "Object.prototype.toString"
+		},
+		{
+			"kind": "member",
+			"name": "userAgent",
+			"memberof": "core.is",
+			"scope": "static",
+			"default": "'navigator' in window && 'userAgent' in navigator && navigator.userAgent.toLowerCase() || ''"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "is",
+			"memberof": "core.is",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "array",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value Array?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "bool",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value Boolean?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "char",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value Char?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "date",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value Date Object?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "decimal",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given number decimal?",
+			"params": [
+				{
+					"name": "numb",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "even",
+			"memberof": "core.is",
+			"scope": "static",
+			"params": [
+				{
+					"name": "numb",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "existy",
+			"memberof": "core.is",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "falsy",
+			"memberof": "core.is",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "fun",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value function?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "integer",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given number integer?",
+			"params": [
+				{
+					"name": "numb",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "nan",
+			"memberof": "core.is",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "nul",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value null?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "number",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value number?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "object",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value object?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "odd",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given number odd?",
+			"params": [
+				{
+					"name": "numb",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "regexp",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value RegExp?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "string",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "// is a given value String?",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "truthy",
+			"memberof": "core.is",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "undefined",
+			"memberof": "core.is",
+			"scope": "static",
+			"description": "//所以，用void 0是为了防止undefined被重写而出现判断不准确的情况。",
+			"params": [
+				{
+					"name": "value",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "is",
+		"memberof": "core",
+		"filename": "core\\tools\\is.ts"
+	}
+}

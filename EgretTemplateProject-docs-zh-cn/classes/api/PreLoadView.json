@@ -1,0 +1,89 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "PreLoadView",
+			"memberof": "PreLoadView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onAddToStage",
+			"memberof": "PreLoadView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onCancel",
+			"memberof": "PreLoadView",
+			"scope": "instance",
+			"description": "取消回调"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onProgress",
+			"memberof": "PreLoadView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "current",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "total",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setPreTip",
+			"memberof": "PreLoadView",
+			"scope": "instance",
+			"description": "//设置加载类型提示",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "updatetip",
+			"memberof": "PreLoadView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "backF",
+					"default": "null",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PreLoadView",
+		"memberof": "",
+		"filename": "module\\loading\\PreLoadView.ts",
+		"augments": [],
+		"implements": []
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "T[]",
+			"name": "items",
+			"memberof": "core.Hook",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Hook",
+			"memberof": "core.Hook",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "register",
+			"memberof": "core.Hook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "T",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "remove",
+			"memberof": "core.Hook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "T",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "reset",
+			"memberof": "core.Hook",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Hook",
+		"memberof": "core",
+		"filename": "core\\hooks.ts",
+		"implements": [
+			{
+				"name": "core.IHook"
+			}
+		]
+	}
+}

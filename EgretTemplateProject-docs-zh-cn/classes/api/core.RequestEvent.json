@@ -1,0 +1,121 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "REQUEST_FAIL",
+			"memberof": "core.RequestEvent",
+			"scope": "static",
+			"description": "请求失败,请求异常",
+			"default": "\"fail\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RESPONSE_ERROR",
+			"memberof": "core.RequestEvent",
+			"scope": "static",
+			"description": "响应结果失败",
+			"default": "\"error\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RESPONSE_SUCCEED",
+			"memberof": "core.RequestEvent",
+			"scope": "static",
+			"description": "响应结果成功",
+			"default": "\"respnseSucceed\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "TIME_OUT",
+			"memberof": "core.RequestEvent",
+			"scope": "static",
+			"description": "请求超时",
+			"default": "\"timeout\""
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "errorCode",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "errorMessage",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isRequestSucceed",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isResponseSucceed",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "responseData",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "RequestEvent",
+			"memberof": "core.RequestEvent",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "target",
+					"type": "core.NetworkRequest",
+					"description": ""
+				},
+				{
+					"name": "bubbles",
+					"question": true,
+					"type": "boolean",
+					"description": ""
+				},
+				{
+					"name": "cancelable",
+					"question": true,
+					"type": "boolean",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RequestEvent",
+		"memberof": "core",
+		"filename": "core\\network\\http\\RequestEvent.ts",
+		"augments": []
+	}
+}

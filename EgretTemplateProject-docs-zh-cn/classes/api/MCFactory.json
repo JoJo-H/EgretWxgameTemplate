@@ -1,0 +1,162 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "MCFactory",
+			"name": "instance",
+			"memberof": "MCFactory",
+			"scope": "static",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MCFactory",
+			"memberof": "MCFactory",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "checkValid",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "检查影片剪辑是否匹配图集和资源名称",
+			"returns": "boolean",
+			"params": [
+				{
+					"name": "mcFile",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "mcName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "mc",
+					"type": "egret.MovieClip",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "clear",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "清空缓存",
+			"params": [
+				{
+					"name": "mcFile",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "mcName",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "clearAll",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "清空所有缓存"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getCacheKey",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "得到影片剪辑的缓存KEY",
+			"returns": "string   缓存KEY",
+			"params": [
+				{
+					"name": "mc",
+					"type": "egret.MovieClip",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getFormatKey",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "生成缓存KEY",
+			"returns": "string",
+			"params": [
+				{
+					"name": "mcFile",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "mcName",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<egret.MovieClip>",
+			"name": "getMovieClip",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "获取影片剪辑",
+			"returns": "egret.MovieClip 影片剪辑对象",
+			"params": [
+				{
+					"name": "mcFile",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "mcName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "isCenter",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "revertMovieClip",
+			"memberof": "MCFactory",
+			"scope": "instance",
+			"description": "归还影片剪辑",
+			"params": [
+				{
+					"name": "mc",
+					"type": "egret.MovieClip",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MCFactory",
+		"memberof": "",
+		"filename": "core\\utils\\MCFactory.ts",
+		"description": "影片剪辑工厂本类功能：1、影片剪辑对象池管理2、如对象池无影片剪辑对象则创建对象"
+	}
+}

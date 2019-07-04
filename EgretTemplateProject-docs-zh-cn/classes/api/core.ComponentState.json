@@ -1,0 +1,169 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isFull",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ComponentState",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "core.IComponent",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "clearLiteners",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dispose",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any[]",
+			"name": "getArgs",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "core.UiType",
+			"name": "getUiType",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "initEventListener",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isType",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "core.UiType",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "listener",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "type",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "func",
+					"type": "(e:egret.Event)=>void",
+					"description": ""
+				},
+				{
+					"name": "context",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onAddToStage",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "e",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRemovedFromStage",
+			"memberof": "core.ComponentState",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setArgs",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "args",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setFull",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"description": "设置全屏"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setUiType",
+			"memberof": "core.ComponentState",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"type": "core.UiType",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ComponentState",
+		"memberof": "core",
+		"filename": "core\\ui\\ComponentState.ts",
+		"description": "组件状态"
+	}
+}

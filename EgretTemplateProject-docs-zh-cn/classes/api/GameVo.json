@@ -1,0 +1,112 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "IsActive",
+			"memberof": "GameVo",
+			"scope": "static",
+			"description": "是否激活，在前台",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RES_PATH",
+			"memberof": "GameVo",
+			"scope": "static",
+			"description": "远程资源地址",
+			"default": "`http://127.0.0.1:3333/EgretWxgameTemplate/EgretTemplateProject_wxgame_remote/${GameVo.resourceVersion}/resource`"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "assetVersion",
+			"memberof": "GameVo",
+			"scope": "static",
+			"description": "//版本信息",
+			"default": "\"\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "configVersion",
+			"memberof": "GameVo",
+			"scope": "static",
+			"default": "\"\""
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "httpEnable",
+			"memberof": "GameVo",
+			"scope": "static",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isDedeg",
+			"memberof": "GameVo",
+			"scope": "static",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isIos",
+			"memberof": "GameVo",
+			"scope": "static",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "needZip",
+			"memberof": "GameVo",
+			"scope": "static",
+			"description": "是否需要压缩",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "pageQueue",
+			"memberof": "GameVo",
+			"scope": "static",
+			"description": "游戏启动参数"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "resourceVersion",
+			"memberof": "GameVo",
+			"scope": "static",
+			"default": "\"1.0.01\""
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "wxInfo",
+			"memberof": "GameVo",
+			"scope": "static"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getP",
+			"memberof": "GameVo",
+			"scope": "static"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameVo",
+		"memberof": "",
+		"filename": "module\\GameVo.ts"
+	}
+}

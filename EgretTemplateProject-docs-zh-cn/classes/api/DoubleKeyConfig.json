@@ -1,0 +1,141 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getConfig",
+			"memberof": "DoubleKeyConfig",
+			"scope": "static",
+			"params": [
+				{
+					"name": "cfgName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyName1",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyName2",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getConfigItem",
+			"memberof": "DoubleKeyConfig",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "cfgName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyName1",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyV1",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "keyName2",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyV2",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getConfigItem",
+			"memberof": "DoubleKeyConfig",
+			"scope": "static",
+			"params": [
+				{
+					"name": "cfgName",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyName1",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyV1",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "keyName2",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "keyV2",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getPatientIllustrationConfigItem",
+			"memberof": "DoubleKeyConfig",
+			"scope": "static",
+			"description": "//病人图鉴",
+			"params": [
+				{
+					"name": "patientId",
+					"description": ""
+				},
+				{
+					"name": "star",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getSigninConfigItem",
+			"memberof": "DoubleKeyConfig",
+			"scope": "static",
+			"description": "//签到",
+			"params": [
+				{
+					"name": "day",
+					"description": ""
+				},
+				{
+					"name": "weekGroup",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DoubleKeyConfig",
+		"memberof": "",
+		"filename": "module\\config\\DoubleKeyConfig.ts"
+	}
+}

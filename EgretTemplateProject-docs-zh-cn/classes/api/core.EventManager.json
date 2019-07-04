@@ -1,0 +1,106 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "EventManager",
+			"memberof": "core.EventManager",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addEventListener",
+			"memberof": "core.EventManager",
+			"scope": "instance",
+			"description": "注册事件监听",
+			"params": [
+				{
+					"name": "messageID",
+					"type": "string|number",
+					"description": ""
+				},
+				{
+					"name": "callback",
+					"type": "(data:core.EventData)=>void",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "index",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "flush",
+			"memberof": "core.EventManager",
+			"scope": "instance",
+			"description": "立即发送缓存池中的消息"
+		},
+		{
+			"kind": "function",
+			"type": "core.EventManager",
+			"name": "getInstance",
+			"memberof": "core.EventManager",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeEventListener",
+			"memberof": "core.EventManager",
+			"scope": "instance",
+			"description": "移除事件监听",
+			"params": [
+				{
+					"name": "messageID",
+					"type": "string|number",
+					"description": ""
+				},
+				{
+					"name": "callback",
+					"type": "(data:core.EventData)=>void",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "sendEvent",
+			"memberof": "core.EventManager",
+			"scope": "instance",
+			"description": "发送消息",
+			"params": [
+				{
+					"name": "message",
+					"type": "core.EventData",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "EventManager",
+		"memberof": "core",
+		"filename": "core\\utils\\EventManager.ts",
+		"description": "事件管理类实现功能：1、默认派发逻辑由发送事件触发，并延迟到下帧执行2、允许设置事件优先级3、设置每帧派发事件的上限、防止单帧执行事件过多4、监测性能耗时较多的回调事件，方便性能优化。"
+	}
+}

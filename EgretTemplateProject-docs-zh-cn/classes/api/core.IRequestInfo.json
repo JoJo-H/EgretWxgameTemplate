@@ -1,0 +1,62 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "cache",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "command",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "mask",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "method",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "object",
+			"name": "params",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "reload",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "requestUrl",
+			"memberof": "core.IRequestInfo",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IRequestInfo",
+		"memberof": "core",
+		"filename": "core\\network\\network.ts"
+	}
+}

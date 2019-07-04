@@ -1,0 +1,109 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "atLast",
+			"memberof": "core.IMovie",
+			"scope": "instance",
+			"description": "动画是否停留在最后"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "frameRate",
+			"memberof": "core.IMovie",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isCache",
+			"memberof": "core.IMovie",
+			"scope": "instance",
+			"description": "是否缓存进对象池"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "dispose",
+			"memberof": "core.IMovie",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "gotoAndPlay",
+			"memberof": "core.IMovie",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "frame",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "playTimes",
+					"question": true,
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "gotoAndStop",
+			"memberof": "core.IMovie",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "frame",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "play",
+			"memberof": "core.IMovie",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "playTimes",
+					"question": true,
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IMovie",
+		"memberof": "core",
+		"filename": "core\\animation\\BaseFactory.ts",
+		"augments": []
+	}
+}

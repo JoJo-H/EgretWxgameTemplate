@@ -1,0 +1,77 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "PAGE_HIDE",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"default": "\"WebUtils.PAGE_HIDE\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "PAGE_SHOW",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"default": "\"WebUtils.PAGE_SHOW\""
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "urlParams",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"description": "URL参数"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addKeyboardListener",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"params": [
+				{
+					"name": "validChecker",
+					"question": true,
+					"type": "(event:KeyboardEvent)=>boolean",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addPageVisableListenter",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"description": "添加网页监听"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isHidden",
+			"memberof": "WebUtils",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "parseURLParams",
+			"memberof": "WebUtils",
+			"scope": "static",
+			"description": "解析URL参数"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "WebUtils",
+		"memberof": "",
+		"filename": "core\\utils\\WebUtils.ts",
+		"description": "web工具类"
+	}
+}

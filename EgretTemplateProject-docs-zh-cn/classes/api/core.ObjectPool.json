@@ -1,0 +1,50 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ObjectPool",
+			"memberof": "core.ObjectPool",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "type",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "T",
+			"name": "pop",
+			"memberof": "core.ObjectPool",
+			"scope": "instance",
+			"description": "拉取对象,如果对象池中不存在任何可供使用的对象,则会创建出新的对象如果对象有init函数，则执行该函数传入参数",
+			"returns": ""
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "push",
+			"memberof": "core.ObjectPool",
+			"scope": "instance",
+			"description": "回收对象,当不需要使用对象池创建的对象时,使用该方法回收对象",
+			"params": [
+				{
+					"name": "instance",
+					"type": "T",
+					"description": "instance"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ObjectPool",
+		"memberof": "core",
+		"filename": "core\\tools\\pool.ts",
+		"description": "对象池"
+	}
+}

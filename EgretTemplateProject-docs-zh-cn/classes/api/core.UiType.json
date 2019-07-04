@@ -1,0 +1,77 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Box",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Common",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Guide",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "None",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Panel",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Scene",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TOP",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Tooltip",
+			"memberof": "core.UiType",
+			"scope": "static",
+			"default": "7"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "UiType",
+		"memberof": "core",
+		"filename": "core\\ui\\UI.ts"
+	}
+}

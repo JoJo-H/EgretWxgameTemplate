@@ -1,0 +1,43 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "BoxAnimation",
+			"memberof": "BoxAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "close",
+			"memberof": "BoxAnimation",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "open",
+			"memberof": "BoxAnimation",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "BoxAnimation",
+		"memberof": "",
+		"filename": "module\\uiAnimation\\BoxAnimation.ts",
+		"augments": [
+			"UiAnimation"
+		]
+	}
+}

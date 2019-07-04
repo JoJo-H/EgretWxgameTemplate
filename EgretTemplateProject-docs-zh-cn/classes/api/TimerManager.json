@@ -1,0 +1,214 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "TimerManager",
+			"name": "instance",
+			"memberof": "TimerManager",
+			"scope": "static",
+			"rwType": 1
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "TimerManager",
+			"memberof": "TimerManager",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "TickData",
+			"name": "addKeyTick",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "添加计时器",
+			"params": [
+				{
+					"name": "tickKey",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "callback",
+					"type": "Function",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "delay",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "replayCount",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "...args",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "TickData",
+			"name": "addTick",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "添加计时器",
+			"params": [
+				{
+					"name": "callback",
+					"type": "Function",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "delay",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "replayCount",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "...args",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "TickData",
+			"name": "getTickData",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "获取定时器数据",
+			"params": [
+				{
+					"name": "tickKey",
+					"description": "tickKey"
+				},
+				{
+					"name": "thisObj",
+					"description": "thisObj"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "TickData[]",
+			"name": "getTicks",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "获取当前的定时器",
+			"params": [
+				{
+					"name": "type",
+					"type": "number",
+					"default": "0",
+					"description": "0：全部  1：有效的 2：无效的"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeAllTicks",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "移除所有计时器"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTick",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "通过回调函数移除对应监听",
+			"params": [
+				{
+					"name": "callback",
+					"type": "Function",
+					"description": ""
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTickByKey",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "移除tickKey绑定相关的计时器",
+			"params": [
+				{
+					"name": "tickKey",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTicks",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "移除this绑定相关的计时器",
+			"params": [
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTicksByKeyAndContext",
+			"memberof": "TimerManager",
+			"scope": "instance",
+			"description": "移除tickKey绑定相关的计时器",
+			"params": [
+				{
+					"name": "tickKey",
+					"type": "string",
+					"description": "tickKey"
+				},
+				{
+					"name": "thisObj",
+					"type": "any",
+					"description": "thisObj"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TimerManager",
+		"memberof": "",
+		"filename": "core\\utils\\TimerManager.ts",
+		"description": "定时器管理器本类为setTimeout及setInterval和Timer的替代实现，主要是方便程序中Timer事件的生命周期管理，使用起来更为便利。程序中如用到setTimeout，setInterval及Timer的地方应尽量选择此方案。"
+	}
+}

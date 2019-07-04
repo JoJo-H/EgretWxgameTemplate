@@ -1,0 +1,75 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,common_json,component_json,loading_bg_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "description_json",
+			"name": "config"
+		},
+		{
+			"keys": "button_mp3,close_mp3,loading_di_jpg,loading_ding_jpg,loading_mp3",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/loading/button.mp3",
+			"type": "sound",
+			"name": "button_mp3"
+		},
+		{
+			"url": "assets/loading/close.mp3",
+			"type": "sound",
+			"name": "close_mp3"
+		},
+		{
+			"url": "assets/loading/loading_di.jpg",
+			"type": "image",
+			"name": "loading_di_jpg"
+		},
+		{
+			"url": "assets/loading/loading_ding.jpg",
+			"type": "image",
+			"name": "loading_ding_jpg"
+		},
+		{
+			"url": "assets/loading/loading.mp3",
+			"type": "sound",
+			"name": "loading_mp3"
+		},
+		{
+			"url": "assets/preload/common.json",
+			"type": "sheet",
+			"name": "common_json",
+			"subkeys": "Selected_png,ZJM_Prompt_box_png,ZJM_YD_png,loading_png"
+		},
+		{
+			"url": "assets/preload/component.json",
+			"type": "sheet",
+			"name": "component_json",
+			"subkeys": "FW_floor_png,Floor_0_png,Floor_1_png,Floor_2_png,Floor_3_png,Floor_4_png,Floor_5_png,Floor_6_png,Floor_B1_png,Floor_B2_png,Floor_B3_png,Floor_W_png,Floor_png,KSSX_b_png,SD_F_png,Section_office1_png,Section_office2_png,Section_office3_png,Section_office4_png,Section_office_png,Selected_1_png,TYT_Button_close_png,YJ_floor_00_png,YJ_floor_01_png,YJ_floor_02_png,ZJM_Floor_png,ZJM_btn_frame_png,ZJM_floor_000_png,ZJM_floor_00_png,ZJM_floor_01_png,ZJM_floor_02_png,ZJM_floor_12_png,ZJM_frame_png,ZJM_head_frame_png,ZJM_txK_png,ZJM_txd_png,arrow_01_png,arrow_02_png,arrow_03_png,arrow_box_01_png,arrow_box_02_png,arrow_box_03_png,border_png,bottom_b_1_png,bottom_b_png,bottom_gray_png,bottom_png,button_close_02_png,button_close_png,button_delete_02_png,button_delete_png,button_down_png,button_gray_png,button_gray_small_png,button_green_png,button_green_small_png,button_purple_png,button_purple_small_png,button_question_png,button_return_02_png,button_return_png,button_up_png,button_yellow_png,button_yellow_small_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,common_mask_png,floor_bg_png,frame_115_png,frame_1_png,frame_2_png,frame_B_png,frame_W_png,frame_Y_png,frame_blue_png,frame_gray_png,fullscreen_bg_jpg,handle_png,header_png,mask_fg_png,off_png,on_png,pb_thumb_blue_png,pb_thumb_blue_small_png,pb_thumb_gary_small_png,pb_thumb_green_png,pb_thumb_navy_small_png,pb_thumb_pink_small_png,pb_thumb_yellow_small_png,pb_track_dark_png,pb_track_gray_png,pb_track_gray_small_png,pop_blue_png,pop_blue_wide_png,pop_cream_bg_png,pop_white_bg_png,pop_white_png,pop_white_wide_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,selected_png,tabButton_normal_png,tabButton_selected_png,thumb_pb_png,thumb_png,tip_bg_png,tip_mark_png,track_pb_png,track_png,track_sb_png,tracklight_png,zy_tips_g_png,zy_tips_y_png"
+		},
+		{
+			"url": "assets/loading/loading_bg.jpg",
+			"type": "image",
+			"name": "loading_bg_jpg"
+		},
+		{
+			"url": "config.zip",
+			"type": "bin",
+			"name": "config_zip"
+		},
+		{
+			"url": "assets/audio/bgmusic.mp3",
+			"type": "sound",
+			"name": "bgmusic_mp3"
+		}
+	]
+}

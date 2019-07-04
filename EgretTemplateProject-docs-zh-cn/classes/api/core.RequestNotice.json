@@ -1,0 +1,49 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "REQUEST_FAIL",
+			"memberof": "core.RequestNotice",
+			"scope": "static",
+			"description": "请求失败,请求异常",
+			"default": "\"net_request_fail\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RESPONSE_ERROR",
+			"memberof": "core.RequestNotice",
+			"scope": "static",
+			"description": "响应结果失败",
+			"default": "\"net_response_error\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "RESPONSE_SUCCEED",
+			"memberof": "core.RequestNotice",
+			"scope": "static",
+			"description": "响应结果成功",
+			"default": "\"net_response_succeed\""
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "TIME_OUT",
+			"memberof": "core.RequestNotice",
+			"scope": "static",
+			"description": "请求超时",
+			"default": "\"net_timeout\""
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RequestNotice",
+		"memberof": "core",
+		"filename": "core\\network\\http\\RequestNotice.ts"
+	}
+}

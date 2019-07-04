@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SimpleLoadingSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maskRect" source="common_mask_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="loadingShape" anchorOffsetX="50" anchorOffsetY="50" source="loading_png" y="640" x="360"/>
+</e:Skin>

@@ -1,0 +1,45 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "TipAnimation",
+			"memberof": "TipAnimation",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "close",
+			"memberof": "UiAnimation",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "UiAnimation"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "open",
+			"memberof": "TipAnimation",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TipAnimation",
+		"memberof": "",
+		"filename": "module\\uiAnimation\\TipAnimation.ts",
+		"augments": [
+			"UiAnimation"
+		]
+	}
+}

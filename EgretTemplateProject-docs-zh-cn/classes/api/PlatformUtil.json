@@ -1,0 +1,100 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "WX_PLATFORM",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "微信",
+			"default": "\"wxgame\""
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getPlatform",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "获取平台"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isNamePlatform",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "是哪个平台",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isSupportAdvertisement",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "是否支持广告",
+			"params": [
+				{
+					"name": "tip",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isSupportRank",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "是否支持外部排行榜"
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isSupportShare",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "是否支持分享",
+			"params": [
+				{
+					"name": "tip",
+					"type": "boolean",
+					"default": "false",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isWxPlatform",
+			"memberof": "PlatformUtil",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "pushRankData",
+			"memberof": "PlatformUtil",
+			"scope": "static",
+			"description": "向平台发关排行榜数据"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PlatformUtil",
+		"memberof": "",
+		"filename": "module\\utils\\PlatformUtil.ts"
+	}
+}

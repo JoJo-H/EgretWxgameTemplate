@@ -1,0 +1,60 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getLaunchOptionsSync",
+			"memberof": "WX",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "getNetworkType",
+			"memberof": "WX",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "option",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getSystemInfo",
+			"memberof": "WX",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "option",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "previewImage",
+			"memberof": "WX",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "option",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "WX",
+		"memberof": "",
+		"filename": "Platform.ts",
+		"implements": [
+			{
+				"name": "IWX"
+			}
+		]
+	}
+}

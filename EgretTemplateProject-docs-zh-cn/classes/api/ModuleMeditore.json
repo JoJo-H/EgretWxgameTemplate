@@ -1,0 +1,134 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "NAME",
+			"memberof": "ModuleMeditore",
+			"scope": "static",
+			"default": "'ModuleMeditore'"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "mediatorName",
+			"memberof": "core.Mediator",
+			"scope": "instance",
+			"description": "The name of the <code>Mediator</code>.",
+			"default": "null",
+			"inherited": true,
+			"inherits": "core.Mediator"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "viewComponent",
+			"memberof": "core.Mediator",
+			"scope": "instance",
+			"description": "The <code>Mediator</code>'s view component.",
+			"default": "null",
+			"inherited": true,
+			"inherits": "core.Mediator"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ModuleMeditore",
+			"memberof": "ModuleMeditore",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getMediatorName",
+			"memberof": "core.Mediator",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.Mediator"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getViewComponent",
+			"memberof": "core.Mediator",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "core.Mediator"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "handleNotification",
+			"memberof": "ModuleMeditore",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "notification",
+					"type": "core.INotification",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string[]",
+			"name": "listNotificationInterests",
+			"memberof": "ModuleMeditore",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRegister",
+			"memberof": "ModuleMeditore",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRemove",
+			"memberof": "ModuleMeditore",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "openSome",
+			"memberof": "ModuleMeditore",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setViewComponent",
+			"memberof": "core.Mediator",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "viewComponent",
+					"type": "any",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "core.Mediator"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ModuleMeditore",
+		"memberof": "",
+		"filename": "module\\ModuleMeditore.ts",
+		"augments": [
+			"core.Mediator"
+		],
+		"implements": [
+			{
+				"name": "core.IMediator"
+			}
+		]
+	}
+}

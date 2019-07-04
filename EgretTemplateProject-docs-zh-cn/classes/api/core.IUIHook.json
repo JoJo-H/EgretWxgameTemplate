@@ -1,0 +1,41 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onAdd",
+			"memberof": "core.IUIHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "core.IComponent",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRemove",
+			"memberof": "core.IUIHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "component",
+					"type": "core.IComponent",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IUIHook",
+		"memberof": "core",
+		"filename": "core\\hooks.ts"
+	}
+}

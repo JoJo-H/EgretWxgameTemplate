@@ -1,0 +1,72 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "IsGet",
+			"memberof": "GameHttp",
+			"scope": "static",
+			"default": "false"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "debughttp",
+			"memberof": "GameHttp",
+			"scope": "static"
+		},
+		{
+			"kind": "member",
+			"name": "gpId",
+			"memberof": "GameHttp",
+			"scope": "static",
+			"default": "\"\""
+		},
+		{
+			"kind": "member",
+			"name": "httpEnable",
+			"memberof": "GameHttp",
+			"scope": "static",
+			"default": "true"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "p",
+			"memberof": "GameHttp",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addRequestDefaultParams",
+			"memberof": "GameHttp",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"type": "Promise<any>",
+			"name": "request",
+			"memberof": "GameHttp",
+			"scope": "static",
+			"params": [
+				{
+					"name": "info",
+					"type": "core.IRequestInfo",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameHttp",
+		"memberof": "",
+		"filename": "net\\GameHttp.ts",
+		"description": "后端请求统一处理类"
+	}
+}

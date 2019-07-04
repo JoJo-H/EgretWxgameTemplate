@@ -1,0 +1,57 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "messageData",
+			"memberof": "core.EventData",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string|number",
+			"name": "messageID",
+			"memberof": "core.EventData",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "EventData",
+			"memberof": "core.EventData",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "messageID",
+					"type": "string|number",
+					"description": ""
+				},
+				{
+					"name": "messageData",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "EventData",
+		"memberof": "core",
+		"filename": "core\\data\\EventData.ts",
+		"description": "事件数据类",
+		"augments": [],
+		"implements": [
+			{
+				"name": "core.IMessage"
+			}
+		],
+		"children": [
+			"core.KeyboardEventData"
+		]
+	}
+}

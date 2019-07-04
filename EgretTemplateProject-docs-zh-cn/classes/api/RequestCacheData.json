@@ -1,0 +1,103 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "RequestCacheData",
+			"name": "instance",
+			"memberof": "RequestCacheData",
+			"scope": "static",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "Object",
+			"name": "pageQuery",
+			"memberof": "RequestCacheData",
+			"scope": "instance",
+			"description": "//页面参数数据"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "serverTime",
+			"memberof": "RequestCacheData",
+			"scope": "instance",
+			"description": "//毫秒"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "wxInfo",
+			"memberof": "RequestCacheData",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "RequestCacheData",
+			"memberof": "RequestCacheData",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "getCache",
+			"memberof": "RequestCacheData",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "getCacheByKey",
+			"memberof": "RequestCacheData",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "key",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "setCache",
+			"memberof": "RequestCacheData",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "upateAdInfo",
+			"memberof": "RequestCacheData",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "data",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RequestCacheData",
+		"memberof": "",
+		"filename": "net\\RequestCacheData.ts",
+		"implements": [
+			{
+				"name": "IRequestCacheData"
+			}
+		]
+	}
+}

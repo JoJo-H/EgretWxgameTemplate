@@ -1,0 +1,26 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UserData",
+			"memberof": "UserData",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getHospitalScore",
+			"memberof": "UserData",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UserData",
+		"memberof": "",
+		"filename": "module\\data\\UserData.ts"
+	}
+}

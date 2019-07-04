@@ -1,0 +1,122 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "HttpListenerHook",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReloadError",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponse",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponseError",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onReponseSuccess",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRequest",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onRequestError",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "onTimeout",
+			"memberof": "core.HttpListenerHook",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "proxy",
+					"type": "core.NetworkRequest",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "HttpListenerHook",
+		"memberof": "core",
+		"filename": "core\\network\\HttpListenerHook.ts",
+		"implements": [
+			{
+				"name": "core.INetworkHook"
+			}
+		]
+	}
+}
